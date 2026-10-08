@@ -57,3 +57,25 @@ Se necesita mostrar la calificación final y si el alumno aprobó.
 # calcularFinal(parcial1, parcial2, parcial3) -> calificacion_final : calcula y devuelve la calificación final.
 # determinarEstado(parcial1, parcial2, parcial3, calificacion_final) -> estado : determina y devuelve si el alumno aprobó o reprobó.
 # mostrarResultado(calificacion_final, estado) -> ninguna : muestra la calificación final y el estado.
+def leerParciales():
+    parcial1 = float(input("Ingrese la calificación del primer parcial: "))
+    parcial2 = float(input("Ingrese la calificación del segundo parcial: "))
+    parcial3 = float(input("Ingrese la calificación del tercer parcial: "))
+    return parcial1, parcial2, parcial3
+    
+def calcularFinal(parcial1, parcial2, parcial3):
+    calificacion_final = (parcial1 * 0.30) + (parcial2 * 0.30) + (parcial3 * 0.40)
+    return calificacion_final
+
+def determinarEstado(parcial1, parcial2, parcial3, calificacion_final):
+    if parcial1 < 50 or parcial2 < 50 or parcial3 < 50:
+        estado = "Reprobado"
+    elif calificacion_final >= 70:
+        estado = "Aprobado"
+    else:
+        estado = "Reprobado"
+    return estado
+
+def mostrarResultado(calificacion_final, estado):
+    print(f"Calificación final: {calificacion_final:.2f}")
+    print(f"Estado: {estado}")
