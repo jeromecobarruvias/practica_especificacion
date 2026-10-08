@@ -1,0 +1,24 @@
+# RESULTADOS ESPERADOS
+
+# EJERCICIO 1 RECIBO DE LUZ
+
+# 100 kWh $100.00
+# 150 kWh $150.00
+# 200 kWh $225.00
+# 280 kWh $345.00
+# 300 kWh $405.00
+
+# EJERCICIO 2 CALIFICACIÓN FINAL
+
+# 80, 70, 90 81.00 Aprobado
+# 70, 70, 70 70.00 Aprobado
+# 100, 100, 40 76.00 Reprobado
+# 69, 70, 70 69.70 Reprobado
+
+# EJERCICIO 3 TOTAL DE COMPRA
+
+# $500 Descuento $0.00 IVA $80.00 Total $580.00
+# $900 Descuento $0.00 IVA $144.00 Total $1,044.00
+# $1,000 Descuento $100.00 IVA $144.00 Total $1,044.00
+# $5,000 Descuento $1,000.00 IVA $640.00 Total $4,640.00
+
